@@ -11,7 +11,15 @@ import React from 'react'
 const Registro = () => {
   return (
     <div>
-        <SocialButton />
+        <SocialButton 
+        icon = 'fa-brands fa-facebook'
+        />
+        <SocialButton
+        icon = 'fa-brands fa-github' 
+        />
+        <SocialButton 
+        icon = 'fa-brands fa-linkedin'
+        />
     </div>
   )
 }
