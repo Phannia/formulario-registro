@@ -26,8 +26,9 @@ const Formulario = () => {
         <form className='formulario' onSubmit={validateData}>
             {error ? <p>Todos los campos son requeridos</p> : null}
             <div className='form-group'>
-                <label>Nombre</label>
+                <label></label>
                 <input 
+                value='Nombre'
                 type='text' 
                 name='nombre'
                 className='form-control'
@@ -35,8 +36,9 @@ const Formulario = () => {
                 />
             </div>
             <div className='form-group'>
-                <label>Email</label>
+                <label></label>
                 <input 
+                value='tuemail@ejemplo.com'
                 type='text' 
                 name='email'
                 className='form-control'
@@ -44,8 +46,9 @@ const Formulario = () => {
                 />
             </div>
             <div className='form-group'>
-                <label>contraseña</label>
+                <label></label>
                 <input 
+                value='Contraseña'
                 type='text' 
                 name='Contraseña'
                 className='form-control'
@@ -53,14 +56,18 @@ const Formulario = () => {
                 />
             </div>
             <div className='form-group'>
-                <label>Nombre</label>
+                <label></label>
                 <input 
+                value='Confirma tu contraseña'
                 type='text' 
                 name='check-contraseña'
                 className='form-control'
                 onChange={ (e) => setCheckPassword(e.target.value) }
                 />
             </div>
+            <button type='submit' className='btn btn-primary'>
+                Registrarse
+            </button>
         </form>
     </div>
   )
