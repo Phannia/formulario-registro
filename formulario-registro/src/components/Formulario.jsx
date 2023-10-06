@@ -28,7 +28,7 @@ const Formulario = () => {
             <div className='form-group'>
                 <label></label>
                 <input 
-                value='Nombre'
+                placeholder='Nombre'
                 type='text' 
                 name='nombre'
                 className='form-control'
@@ -38,7 +38,7 @@ const Formulario = () => {
             <div className='form-group'>
                 <label></label>
                 <input 
-                value='tuemail@ejemplo.com'
+                placeholder='tuemail@ejemplo.com'
                 type='text' 
                 name='email'
                 className='form-control'
@@ -48,8 +48,8 @@ const Formulario = () => {
             <div className='form-group'>
                 <label></label>
                 <input 
-                value='Contraseña'
-                type='text' 
+                placeholder='Contraseña'
+                type='password' 
                 name='Contraseña'
                 className='form-control'
                 onChange={ (e) => setPassword(e.target.value) }
@@ -58,8 +58,8 @@ const Formulario = () => {
             <div className='form-group'>
                 <label></label>
                 <input 
-                value='Confirma tu contraseña'
-                type='text' 
+                placeholder='Confirma tu contraseña'
+                type='password' 
                 name='check-contraseña'
                 className='form-control'
                 onChange={ (e) => setCheckPassword(e.target.value) }
