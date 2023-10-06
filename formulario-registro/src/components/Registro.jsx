@@ -20,6 +20,8 @@ const Registro = () => {
         <SocialButton 
         icon = 'fa-brands fa-linkedin'
         />
+        <Formulario />
+        
     </div>
   )
 }
