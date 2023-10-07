@@ -1,13 +1,12 @@
 
 
-const SocialButton = ({icon, name}) => {
+const SocialButton = ({icon}) => {
   return (
-    <div>
-      
+    <>
       <div className='icon-box'>
-        <a className='icon-link'><i className={icon}></i>{name}</a>
+        <a className='icon-link'><i className={icon}></i></a>
       </div>
-    </div>
+    </>
   )
 }
 
