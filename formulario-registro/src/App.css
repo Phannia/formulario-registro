@@ -1,5 +1,6 @@
-body{
-  background-color: rgb(154 255 127);
+body {
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
 }
 
 #root {
@@ -10,4 +11,3 @@ body{
   border-radius: 2.25rem;
   background-color: white;
 }
-
